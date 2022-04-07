@@ -1,2 +1,2 @@
 # PhpDatabasePdo
-Some basic functions and checking for MySQL query updates
+A small repo for some php functions for doing CRUD operations on PhpMyAdmin MySQL 
