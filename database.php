@@ -34,7 +34,7 @@
 			$query->bindValue(':email', $email);
 			$query->bindValue(':photo', $photo);
 			$query->bindValue(':contact_number', $contact_number);
-			$query->bindValue(':password', md5($first_name));
+			$query->bindValue(':password', md5($password));
 			$query->execute();
 		} else {
 			echo "User already existed! please add a different user <br>";
